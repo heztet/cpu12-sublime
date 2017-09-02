@@ -8,7 +8,7 @@ CPU12 assembly language support for Sublime Text 3
 
 This package includes the grammar for the Motorola CPU12 core instruction set, defined in the [CPU12/CPU12RM manual](http://www.nxp.com/docs/en/reference-manual/CPU12RM.pdf).
 
-Modified from my [VSCode CPU12 extetnsion][1].
+Modified from my [VSCode CPU12 extetnsion](https://github.com/heztet/cpu12-vscode).
 
 ## Install CPU12
 
@@ -20,7 +20,8 @@ Modified from my [VSCode CPU12 extetnsion][1].
 ## Modify CPU12
 
 *(These steps largely come from the [sublime unofficial docs](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html))*
-- (Optional) Get the latest updated version of [cpu12.tmLanguage.json][2] from the VSCode extension. From here you can either convert the JSON into YAML ([old way](http://sublimetext.info/docs/en/extensibility/syntaxdefs.html)) or convert it into YAML first and work there
+
+- (Optional) Get the latest version of [cpu12.tmLanguage.json](https://raw.githubusercontent.com/heztet/cpu12-vscode/master/syntaxes/cpu12.tmlanguage.json) from the VSCode extension. From here you can either [convert the JSON into YAML](http://sublimetext.info/docs/en/extensibility/syntaxdefs.html) or convert it into YAML first and work there, but make sure to rename it to `CPU12.YAML-tmLanguage`
 - Modify the `CPU12.YAML-tmLanguage` to fit your needs
 - Using PackageDev, convert the YAML version into the plist/.tmLanguage version (it should be an XML format when you open it)
-- Restart Sublime Text to see if your changes worked
+- Restart Sublime Text 3 to see if your changes worked
