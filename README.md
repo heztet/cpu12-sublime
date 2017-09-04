@@ -1,4 +1,4 @@
-# cpu12
+# cpu12-sublime
 
 CPU12 assembly language support for Sublime Text 3
 
