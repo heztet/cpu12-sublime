@@ -19,7 +19,7 @@ Modified from my [VSCode CPU12 extetnsion](https://github.com/heztet/cpu12-vscod
 
 ## Modify CPU12
 
-*(These steps largely come from the [sublime unofficial docs](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html))*
+*(These steps largely come from the [Sublime Text Unofficial Documentation](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html))*
 
 - (Optional) Get the latest version of [cpu12.tmLanguage.json](https://raw.githubusercontent.com/heztet/cpu12-vscode/master/syntaxes/cpu12.tmlanguage.json) from the VSCode extension. From here you can either [convert the JSON into YAML](http://sublimetext.info/docs/en/extensibility/syntaxdefs.html) or convert it into YAML first and work there, but make sure to rename it to `CPU12.YAML-tmLanguage`
 - Modify the `CPU12.YAML-tmLanguage` to fit your needs
