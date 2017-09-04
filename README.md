@@ -12,7 +12,7 @@ Modified from my [VSCode CPU12 extetnsion](https://github.com/heztet/cpu12-vscod
 
 ## Install CPU12
 
-- Go to *Preferences* > *Browse Packages...*, then go to the User folder
+- Click to *Preferences* > *Browse Packages...*, which should open a folder explorer. Go into the User folder, or create one if it's not already there
 - Put the file `CPU12.tmLanguage` in the User folder
 - Restart Sublime Text 3
 - Open any file that ends with `.asm` to test the syntax highlighting
